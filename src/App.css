@@ -1,38 +1,106 @@
-.App {
-  text-align: center;
-}
+.leaflet-container{
+  width: 80%;
+  height: 80vh;
+  margin-right: 50px;
+  margin-left: 60px;
+  
+} .infoHeader{
+  color: black;
+  font-family: Arial, Helvetica;
+  font-size: 15px;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+h1{
+  color: black;
+  font-family: Arial;
+  font-size: 24px;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
 }
+h2{
+  color: rgb(27, 32, 32);
+  font-size: 15px;
+  font-family: Arial;
+}
+.leaflet-popup-content-wrapper,
+.leaflet-popup-tip {
+    background: white;
+    color:#ebebeb;
+    box-shadow: 0 3px 14px rgba(0,0,0,0.4);
+  padding: px;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  -webkit-tap-highlight-color: transparent;
+  font: 12px/1.5 "Helvetica Neue", Arial, Helvetica, sans-serif;
+  cursor: auto;
+  text-align: left;
+  color: #ebebeb;
+  margin: 13px 19px;
+  line-height: 1.4;
+  width: 455px;
+    }
+    .leaflet-container a.leaflet-popup-close-button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      padding: 15px 3px 0 0;
+      border: none;
+      text-align: center;
+      width: 60px;
+      height: 50px;
+      font: 16px/14px Tahoma, Verdana, sans-serif;
+      color:blue;
+      text-decoration: none;
+      font-weight: bold;
+      background: transparent;
+  }
+  .mostrar{
+    position: absolute;
+    top: 300px;
+    right: 20px;
+    z-index: 1010;
+    margin-top: 7px;
+    background-color: rgba(243, 242, 242, 0.904);
+    animation:pulse 1.5s infinite;
+    box-shadow:0 0 0 0  rgba(0, 0, 0, 5);
+    border: hsl(hue, saturation, lightness);
+    border-radius: 8px;
+    
+  }
+  .text-center{
+    text-align: center;
+  }
+  .button{
+    padding: 8px 12px;
+    border-radius: 8px;
+    background-color: coral;
+    font-size: 16px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
   }
-  to {
-    transform: rotate(360deg);
+  .App-title{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
   }
-}
+ 
+ 
+  .center{
+    background-color:#FFFFFF ;
+  }
+  .myImage {
+    width: 50px;
+    height: 50px; 
+    background: url("{process.env.PUBLIC_URL + '/two.svg'}");
+    }
+   
+   .btn-secondary {
+    color: #fff;
+    background-color: #f9fbfc;
+    border-color: #f9f7fc;
+   }
+   p{
+     font-size: 26px;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+   }
