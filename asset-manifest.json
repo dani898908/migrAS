@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/migrAS/static/css/main.c9991d7f.chunk.css",
+    "main.js": "/migrAS/static/js/main.3929097a.chunk.js",
+    "main.js.map": "/migrAS/static/js/main.3929097a.chunk.js.map",
+    "runtime-main.js": "/migrAS/static/js/runtime-main.51dde0c7.js",
+    "runtime-main.js.map": "/migrAS/static/js/runtime-main.51dde0c7.js.map",
+    "static/css/2.11829350.chunk.css": "/migrAS/static/css/2.11829350.chunk.css",
+    "static/js/2.e56eb618.chunk.js": "/migrAS/static/js/2.e56eb618.chunk.js",
+    "static/js/2.e56eb618.chunk.js.map": "/migrAS/static/js/2.e56eb618.chunk.js.map",
+    "index.html": "/migrAS/index.html",
+    "precache-manifest.137b62988181e4ab89a8e0619c3b9dbb.js": "/migrAS/precache-manifest.137b62988181e4ab89a8e0619c3b9dbb.js",
+    "service-worker.js": "/migrAS/service-worker.js",
+    "static/css/2.11829350.chunk.css.map": "/migrAS/static/css/2.11829350.chunk.css.map",
+    "static/css/main.c9991d7f.chunk.css.map": "/migrAS/static/css/main.c9991d7f.chunk.css.map",
+    "static/js/2.e56eb618.chunk.js.LICENSE.txt": "/migrAS/static/js/2.e56eb618.chunk.js.LICENSE.txt",
+    "static/media/mario.png": "/migrAS/static/media/mario.add73c07.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.51dde0c7.js",
+    "static/css/2.11829350.chunk.css",
+    "static/js/2.e56eb618.chunk.js",
+    "static/css/main.c9991d7f.chunk.css",
+    "static/js/main.3929097a.chunk.js"
+  ]
+}
