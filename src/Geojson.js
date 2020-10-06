@@ -9,7 +9,7 @@ import { GeoJSON, FeatureGroup,  } from 'react-leaflet';
     this.state = {
    
       data:[],
-     color1:"white",
+     
      color:"white"
     };
   
