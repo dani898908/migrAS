@@ -1,7 +1,7 @@
 import React from "react";
 import { Marker, Popup } from "react-leaflet";
 import Iframe from 'react-iframe';
-import * as muniData from "municipalities.json";
+import * as muniData from "./municipalities.json";
 
 
 
