@@ -9,7 +9,8 @@ import { GeoJSON, FeatureGroup,  } from 'react-leaflet';
     this.state = {
    
       data:[],
-     color:"#d42029"
+     color1:"white",
+     color:"white"
     };
   
     console.log('constructor')
@@ -17,16 +18,17 @@ import { GeoJSON, FeatureGroup,  } from 'react-leaflet';
 
   myStyle = () => {
     return {
-      weight: 2,
+      weight: 0.5,
       opacity: 2,
-      fillOpacity:1,
-      color: 'white'
+      fillOpacity: 0.5,
+      fillColor: 'red',
+  
      
     }
   };
   mousemove = (event)=>{
     event.target.setStyle({
-      color:"grey",
+      color:"white",
        fillColor:this.state.color,
      
    });
@@ -34,15 +36,9 @@ import { GeoJSON, FeatureGroup,  } from 'react-leaflet';
 
 
    onEachContry= ( nameunit, layer)=>{
-     const names= nameunit.properties.id;
-     //layer.bindPopup(names);
-
-
-     //layer.options.fillOpacity= Math.random();
-
-
-     //const colorIn= Math.floor(Math.random() * this.color.length);
-     //layer.options.fillColor= this.color[colorIn]
+     const names= nameunit.properties.Nombre;
+     const den= nameunit.properties.populationtotalsais_otdensit
+     layer.bindPopup("Municipio de"+" "+" "+  names +" "+" "+"densidad Poblacional año 2019: "+""+ "" +den+" "+"hab./km²" );
 
      layer.on({
        click: this.mousemove,

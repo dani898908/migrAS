@@ -16,7 +16,7 @@ class App extends React.Component{
   
   return(
       <div className="App">
-        <h1 ><div className="App-title">Migraciones Asturias</div></h1>
+        <h1 ><div className="App-title">Migraciones en Asturias 1996-2019</div></h1>
     <MapComponent1/>
     
   </div>

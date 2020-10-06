@@ -12,8 +12,6 @@ export default class MapComponent1 extends React.Component {
     lng: -3.80185427963720,
     zoom: 18,
     maxZoom: 20,
-   color:"#4BC732",
-   
    geojsonvisible: true,
   };
   onGeojsonToggle = (e) => { 
@@ -24,9 +22,6 @@ export default class MapComponent1 extends React.Component {
   }
   
  
-  colorChange=(event)=>{
-    this.setState({color: event.target.value})
-  }
   render(){
         return (
 <div>
