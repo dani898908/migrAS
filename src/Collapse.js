@@ -45,8 +45,7 @@ class Collapse extends React.Component {
             <Button className="mostrar" onClick={this.toggleVisibility}
               value={this.state.visibility} onChange={this.toggleVisibility} 
               > 
-             <div className="parrafos"> <p>Esta aplicación, nos ofrece las gráficas de migración en municipios de Asturias,
-                                          en los años de 1996-2019</p></div>
+             <div className="parrafos"> <p>Esta aplicación nos ofrece las gráficas de migración en los municipios de Asturias</p></div>
              <p class="text-primary">Información proporcionada por el INE</p>
              <div />
             </Button>
