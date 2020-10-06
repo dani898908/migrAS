@@ -1,7 +1,7 @@
 import React from "react";
 import { Marker, Popup } from "react-leaflet";
 import Iframe from 'react-iframe';
-import * as muniData from "C:/Users/daniela bonilla/Desktop/astu/my-astu/src/municipalities.json";
+import * as muniData from "public/municipalities.json";
 
 
 
