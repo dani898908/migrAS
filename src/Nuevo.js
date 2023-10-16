@@ -20,13 +20,9 @@ export default function Pop() {
        muni.geometry.coordinates[0]
      ]}
 
-
       onClick={() => {
-        setActiveMuni(muni);
-
-      }}
-
-     />
+      setActiveMuni(muni);
+      }} />
 
      )}
      {activeMuni && (
